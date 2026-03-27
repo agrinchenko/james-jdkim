@@ -64,7 +64,6 @@
 
     <properties>
         <apache-mime4j.version>0.8.12</apache-mime4j.version>
-        <commons-codec.version>1.18.0</commons-codec.version>
         <dnsjava.version>3.6.3</dnsjava.version>
         <james-skin.version>1.8</james-skin.version>
         <junit.version>4.13.2</junit.version>
@@ -74,11 +73,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>commons-codec</groupId>
-                <artifactId>commons-codec</artifactId>
-                <version>${commons-codec.version}</version>
-            </dependency>
             <dependency>
                 <groupId>dnsjava</groupId>
                 <artifactId>dnsjava</artifactId>
@@ -115,7 +109,7 @@
             <dependency>
                 <groupId>org.assertj</groupId>
                 <artifactId>assertj-core</artifactId>
-                <version>3.26.0</version>
+                <version>3.27.7</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
