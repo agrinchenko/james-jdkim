@@ -20,6 +20,17 @@ Current fork-specific focus includes:
 - ARC chain handling
 - Mail authentication extensions related to RFC 8617
 
+== Test Coverage
+
+ARC functionality is covered by tests in
+https://github.com/apache/james-jdkim/blob/master/arc/src/test/java/org/apache/james/arc/ARCTest.java[ARCTest].
+The coverage is based on the ARC protocol requirements from
+https://datatracker.ietf.org/doc/html/rfc8617[RFC 8617] and on the public
+https://github.com/ValiMail/arc_test_suite[ValiMail ARC test suite]. The tests
+exercise ARC set creation, chain validation, ARC-Seal verification,
+ARC-Message-Signature canonicalization, body hash handling, required tag
+validation, and malformed or tampered ARC header cases.
+
 == Usage
 
 A full example is available in
